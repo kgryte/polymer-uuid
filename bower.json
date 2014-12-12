@@ -1,0 +1,42 @@
+{
+  "name": "polymer-uuid",
+  "version": "0.0.0",
+  "description": "Wraps node-uuid in a Polymer element.",
+  "authors": [
+    {
+      "name": "Athan Reines",
+      "email": "kgryte@gmail.com"
+    }
+  ],
+  "main": "./polymer-uuid.html",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kgryte/polymer-uuid"
+  },
+  "keywords": [
+    "polymer",
+    "web component",
+    "uuid"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.5.1"
+  },
+  "devDependencies": {
+    "web-component-tester": "~2.0.1"
+  },
+  "ignore": [
+    "TODO.md",
+    ".*",
+    "test",
+    "node_modules",
+    "bower",
+    "src",
+    "config",
+    "Makefile",
+    "wct.conf.js",
+    "sauce-browsers.json",
+    "vulcanize.conf.js",
+    "package.json"
+  ],
+  "license": "MIT"
+}
